@@ -1,0 +1,61 @@
+{
+  "app": {
+    "title": "Audio Converter",
+    "description": "Convert your audio files online. Supports MP3, WAV, AAC, FLAC, and more formats."
+  },
+  "header": {
+    "title": "Audio Format Converter",
+    "subtitle": "Professional audio conversion with advanced options"
+  },
+  "converter": {
+    "selectFile": "Select Audio File",
+    "dragDrop": "Drag and drop your audio file here, or click to browse",
+    "convert": "Convert",
+    "converting": "Converting...",
+    "download": "Download",
+    "fromFormat": "From",
+    "toFormat": "To",
+    "options": "Options"
+  },
+  "formats": {
+    "mp3": "MP3",
+    "wav": "WAV", 
+    "aac": "AAC",
+    "flac": "FLAC",
+    "ogg": "OGG",
+    "m4a": "M4A",
+    "wma": "WMA"
+  },
+  "audioOptions": {
+    "quality": "Audio Quality",
+    "bitrate": "Bitrate",
+    "sampleRate": "Sample Rate",
+    "channels": "Channels",
+    "volume": "Volume",
+    "mono": "Mono",
+    "stereo": "Stereo",
+    "noChange": "No Change"
+  },
+  "trim": {
+    "title": "Trim Audio",
+    "start": "Start Time",
+    "end": "End Time",
+    "placeholder": "HH:MM:SS"
+  },
+  "languages": {
+    "en": "English",
+    "zh": "中文",
+    "fr": "Français", 
+    "es": "Español",
+    "ru": "Русский",
+    "ar": "العربية",
+    "pt": "Português",
+    "ja": "日本語",
+    "ko": "한국어"
+  },
+  "errors": {
+    "unsupportedFormat": "Unsupported file format",
+    "fileTooLarge": "File size too large",
+    "conversionFailed": "Conversion failed"
+  }
+}

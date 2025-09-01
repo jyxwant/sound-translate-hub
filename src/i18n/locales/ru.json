@@ -1,0 +1,61 @@
+{
+  "app": {
+    "title": "Аудио Конвертер",
+    "description": "Конвертируйте ваши аудио файлы онлайн. Поддерживает MP3, WAV, AAC, FLAC и другие форматы."
+  },
+  "header": {
+    "title": "Конвертер Аудио Форматов",
+    "subtitle": "Профессиональная конвертация аудио с расширенными опциями"
+  },
+  "converter": {
+    "selectFile": "Выбрать Аудио Файл",
+    "dragDrop": "Перетащите ваш аудио файл сюда или нажмите для обзора",
+    "convert": "Конвертировать",
+    "converting": "Конвертация...",
+    "download": "Скачать",
+    "fromFormat": "Из",
+    "toFormat": "В",
+    "options": "Опции"
+  },
+  "formats": {
+    "mp3": "MP3",
+    "wav": "WAV",
+    "aac": "AAC",
+    "flac": "FLAC",
+    "ogg": "OGG",
+    "m4a": "M4A",
+    "wma": "WMA"
+  },
+  "audioOptions": {
+    "quality": "Качество Аудио",
+    "bitrate": "Битрейт",
+    "sampleRate": "Частота Дискретизации",
+    "channels": "Каналы",
+    "volume": "Громкость",
+    "mono": "Моно",
+    "stereo": "Стерео",
+    "noChange": "Без Изменений"
+  },
+  "trim": {
+    "title": "Обрезать Аудио",
+    "start": "Время Начала",
+    "end": "Время Окончания",
+    "placeholder": "ЧЧ:ММ:СС"
+  },
+  "languages": {
+    "en": "English",
+    "zh": "中文",
+    "fr": "Français",
+    "es": "Español",
+    "ru": "Русский",
+    "ar": "العربية",
+    "pt": "Português",
+    "ja": "日本語",
+    "ko": "한국어"
+  },
+  "errors": {
+    "unsupportedFormat": "Неподдерживаемый формат файла",
+    "fileTooLarge": "Файл слишком большой",
+    "conversionFailed": "Ошибка конвертации"
+  }
+}

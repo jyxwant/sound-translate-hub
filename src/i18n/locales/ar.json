@@ -1,0 +1,61 @@
+{
+  "app": {
+    "title": "محول الصوت",
+    "description": "قم بتحويل ملفاتك الصوتية عبر الإنترنت. يدعم MP3 و WAV و AAC و FLAC والمزيد من التنسيقات."
+  },
+  "header": {
+    "title": "محول تنسيق الصوت",
+    "subtitle": "تحويل صوتي احترافي مع خيارات متقدمة"
+  },
+  "converter": {
+    "selectFile": "اختر ملف صوتي",
+    "dragDrop": "اسحب وأفلت ملفك الصوتي هنا، أو انقر للتصفح",
+    "convert": "تحويل",
+    "converting": "جاري التحويل...",
+    "download": "تحميل",
+    "fromFormat": "من",
+    "toFormat": "إلى",
+    "options": "خيارات"
+  },
+  "formats": {
+    "mp3": "MP3",
+    "wav": "WAV",
+    "aac": "AAC",
+    "flac": "FLAC",
+    "ogg": "OGG",
+    "m4a": "M4A",
+    "wma": "WMA"
+  },
+  "audioOptions": {
+    "quality": "جودة الصوت",
+    "bitrate": "معدل البت",
+    "sampleRate": "معدل العينة",
+    "channels": "القنوات",
+    "volume": "مستوى الصوت",
+    "mono": "أحادي",
+    "stereo": "استيريو",
+    "noChange": "بدون تغيير"
+  },
+  "trim": {
+    "title": "قص الصوت",
+    "start": "وقت البداية",
+    "end": "وقت النهاية",
+    "placeholder": "ساعة:دقيقة:ثانية"
+  },
+  "languages": {
+    "en": "English",
+    "zh": "中文",
+    "fr": "Français",
+    "es": "Español",
+    "ru": "Русский",
+    "ar": "العربية",
+    "pt": "Português",
+    "ja": "日本語",
+    "ko": "한국어"
+  },
+  "errors": {
+    "unsupportedFormat": "تنسيق ملف غير مدعوم",
+    "fileTooLarge": "حجم الملف كبير جداً",
+    "conversionFailed": "فشل في التحويل"
+  }
+}

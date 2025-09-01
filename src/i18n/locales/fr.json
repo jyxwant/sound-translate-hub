@@ -1,0 +1,61 @@
+{
+  "app": {
+    "title": "Convertisseur Audio",
+    "description": "Convertissez vos fichiers audio en ligne. Prend en charge MP3, WAV, AAC, FLAC et plus."
+  },
+  "header": {
+    "title": "Convertisseur de Format Audio",
+    "subtitle": "Conversion audio professionnelle avec options avancées"
+  },
+  "converter": {
+    "selectFile": "Sélectionner un Fichier Audio",
+    "dragDrop": "Glissez et déposez votre fichier audio ici, ou cliquez pour parcourir",
+    "convert": "Convertir",
+    "converting": "Conversion...",
+    "download": "Télécharger",
+    "fromFormat": "De",
+    "toFormat": "Vers",
+    "options": "Options"
+  },
+  "formats": {
+    "mp3": "MP3",
+    "wav": "WAV",
+    "aac": "AAC",
+    "flac": "FLAC",
+    "ogg": "OGG",
+    "m4a": "M4A",
+    "wma": "WMA"
+  },
+  "audioOptions": {
+    "quality": "Qualité Audio",
+    "bitrate": "Débit",
+    "sampleRate": "Taux d'Échantillonnage",
+    "channels": "Canaux",
+    "volume": "Volume",
+    "mono": "Mono",
+    "stereo": "Stéréo",
+    "noChange": "Aucun Changement"
+  },
+  "trim": {
+    "title": "Découper l'Audio",
+    "start": "Heure de Début",
+    "end": "Heure de Fin",
+    "placeholder": "HH:MM:SS"
+  },
+  "languages": {
+    "en": "English",
+    "zh": "中文",
+    "fr": "Français",
+    "es": "Español",
+    "ru": "Русский",
+    "ar": "العربية",
+    "pt": "Português",
+    "ja": "日本語",
+    "ko": "한국어"
+  },
+  "errors": {
+    "unsupportedFormat": "Format de fichier non pris en charge",
+    "fileTooLarge": "Taille de fichier trop importante",
+    "conversionFailed": "Échec de la conversion"
+  }
+}

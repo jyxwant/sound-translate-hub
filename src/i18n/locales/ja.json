@@ -1,0 +1,61 @@
+{
+  "app": {
+    "title": "オーディオコンバーター",
+    "description": "オンラインでオーディオファイルを変換します。MP3、WAV、AAC、FLACなどの形式をサポートしています。"
+  },
+  "header": {
+    "title": "オーディオフォーマットコンバーター",
+    "subtitle": "高度なオプション付きのプロフェッショナルなオーディオ変換"
+  },
+  "converter": {
+    "selectFile": "オーディオファイルを選択",
+    "dragDrop": "オーディオファイルをここにドラッグ＆ドロップするか、クリックして参照してください",
+    "convert": "変換",
+    "converting": "変換中...",
+    "download": "ダウンロード",
+    "fromFormat": "変換元",
+    "toFormat": "変換先",
+    "options": "オプション"
+  },
+  "formats": {
+    "mp3": "MP3",
+    "wav": "WAV",
+    "aac": "AAC",
+    "flac": "FLAC",
+    "ogg": "OGG",
+    "m4a": "M4A",
+    "wma": "WMA"
+  },
+  "audioOptions": {
+    "quality": "音質",
+    "bitrate": "ビットレート",
+    "sampleRate": "サンプルレート",
+    "channels": "チャンネル",
+    "volume": "音量",
+    "mono": "モノラル",
+    "stereo": "ステレオ",
+    "noChange": "変更なし"
+  },
+  "trim": {
+    "title": "オーディオトリム",
+    "start": "開始時間",
+    "end": "終了時間",
+    "placeholder": "時:分:秒"
+  },
+  "languages": {
+    "en": "English",
+    "zh": "中文",
+    "fr": "Français",
+    "es": "Español",
+    "ru": "Русский",
+    "ar": "العربية",
+    "pt": "Português",
+    "ja": "日本語",
+    "ko": "한국어"
+  },
+  "errors": {
+    "unsupportedFormat": "サポートされていないファイル形式",
+    "fileTooLarge": "ファイルサイズが大きすぎます",
+    "conversionFailed": "変換に失敗しました"
+  }
+}

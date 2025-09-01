@@ -1,0 +1,61 @@
+{
+  "app": {
+    "title": "오디오 변환기",
+    "description": "온라인으로 오디오 파일을 변환하세요. MP3, WAV, AAC, FLAC 등의 형식을 지원합니다."
+  },
+  "header": {
+    "title": "오디오 형식 변환기",
+    "subtitle": "고급 옵션을 제공하는 전문 오디오 변환"
+  },
+  "converter": {
+    "selectFile": "오디오 파일 선택",
+    "dragDrop": "오디오 파일을 여기에 드래그 앤 드롭하거나 클릭하여 찾아보세요",
+    "convert": "변환",
+    "converting": "변환 중...",
+    "download": "다운로드",
+    "fromFormat": "원본",
+    "toFormat": "대상",
+    "options": "옵션"
+  },
+  "formats": {
+    "mp3": "MP3",
+    "wav": "WAV",
+    "aac": "AAC",
+    "flac": "FLAC",
+    "ogg": "OGG",
+    "m4a": "M4A",
+    "wma": "WMA"
+  },
+  "audioOptions": {
+    "quality": "오디오 품질",
+    "bitrate": "비트레이트",
+    "sampleRate": "샘플 레이트",
+    "channels": "채널",
+    "volume": "볼륨",
+    "mono": "모노",
+    "stereo": "스테레오",
+    "noChange": "변경 없음"
+  },
+  "trim": {
+    "title": "오디오 자르기",
+    "start": "시작 시간",
+    "end": "종료 시간",
+    "placeholder": "시:분:초"
+  },
+  "languages": {
+    "en": "English",
+    "zh": "中文",
+    "fr": "Français",
+    "es": "Español",
+    "ru": "Русский",
+    "ar": "العربية",
+    "pt": "Português",
+    "ja": "日本語",
+    "ko": "한국어"
+  },
+  "errors": {
+    "unsupportedFormat": "지원되지 않는 파일 형식",
+    "fileTooLarge": "파일 크기가 너무 큽니다",
+    "conversionFailed": "변환에 실패했습니다"
+  }
+}

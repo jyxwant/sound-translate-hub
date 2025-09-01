@@ -1,0 +1,61 @@
+{
+  "app": {
+    "title": "音频转换器",
+    "description": "在线转换您的音频文件。支持 MP3、WAV、AAC、FLAC 等多种格式。"
+  },
+  "header": {
+    "title": "音频格式转换器",
+    "subtitle": "专业的音频转换工具，提供高级选项"
+  },
+  "converter": {
+    "selectFile": "选择音频文件",
+    "dragDrop": "将音频文件拖放到此处，或点击浏览",
+    "convert": "转换",
+    "converting": "转换中...",
+    "download": "下载",
+    "fromFormat": "源格式",
+    "toFormat": "目标格式",
+    "options": "选项"
+  },
+  "formats": {
+    "mp3": "MP3",
+    "wav": "WAV",
+    "aac": "AAC", 
+    "flac": "FLAC",
+    "ogg": "OGG",
+    "m4a": "M4A",
+    "wma": "WMA"
+  },
+  "audioOptions": {
+    "quality": "音频质量",
+    "bitrate": "比特率",
+    "sampleRate": "采样率",
+    "channels": "声道",
+    "volume": "音量",
+    "mono": "单声道",
+    "stereo": "立体声",
+    "noChange": "不更改"
+  },
+  "trim": {
+    "title": "裁剪音频",
+    "start": "开始时间",
+    "end": "结束时间",
+    "placeholder": "时:分:秒"
+  },
+  "languages": {
+    "en": "English",
+    "zh": "中文",
+    "fr": "Français",
+    "es": "Español", 
+    "ru": "Русский",
+    "ar": "العربية",
+    "pt": "Português",
+    "ja": "日本語",
+    "ko": "한국어"
+  },
+  "errors": {
+    "unsupportedFormat": "不支持的文件格式",
+    "fileTooLarge": "文件过大",
+    "conversionFailed": "转换失败"
+  }
+}
