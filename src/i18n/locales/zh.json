@@ -1,30 +1,51 @@
 {
   "app": {
     "title": "音频转换器",
-    "description": "在线转换您的音频文件。支持 MP3、WAV、AAC、FLAC 等多种格式。"
+    "description": "简洁快速的线上音频转换。"
   },
   "header": {
-    "title": "音频格式转换器",
-    "subtitle": "专业的音频转换工具，提供高级选项"
+    "title": "音频格式转换",
+    "subtitle": "即时转换音频文件 - 无需上传，完全隐私，在浏览器中运行"
+  },
+  "benefits": {
+    "noUpload": "不上传文件",
+    "batch": "批量处理",
+    "fast": "闪电般快速"
+  },
+  "steps": {
+    "selectFormat": "选择格式",
+    "selectFiles": "选择文件",
+    "adjustSettings": "调整设置",
+    "convertDownload": "转换和下载"
   },
   "converter": {
     "selectFile": "选择音频文件",
-    "dragDrop": "将音频文件拖放到此处，或点击浏览",
-    "convert": "转换",
-    "converting": "转换中...",
+    "dragDrop": "将音频文件拖放到此处，或点击选择",
+    "convert": "开始转换",
+    "converting": "正在转换...",
     "download": "下载",
     "fromFormat": "源格式",
     "toFormat": "目标格式",
-    "options": "选项"
+    "options": "转换选项",
+    "autoDetect": "自动识别"
   },
   "formats": {
     "mp3": "MP3",
     "wav": "WAV",
-    "aac": "AAC", 
+    "aac": "AAC",
     "flac": "FLAC",
     "ogg": "OGG",
     "m4a": "M4A",
     "wma": "WMA"
+  },
+  "formatDesc": {
+    "mp3": "兼容性最好",
+    "wav": "未压缩",
+    "aac": "高音质",
+    "flac": "无损",
+    "ogg": "开源格式",
+    "m4a": "苹果常用",
+    "wma": "Windows 格式"
   },
   "audioOptions": {
     "quality": "音频质量",
@@ -34,19 +55,40 @@
     "volume": "音量",
     "mono": "单声道",
     "stereo": "立体声",
-    "noChange": "不更改"
+    "noChange": "不更改",
+    "qualityLevels": {
+      "low": "较低",
+      "medium": "中等",
+      "high": "较高",
+      "highest": "最高"
+    }
   },
   "trim": {
     "title": "裁剪音频",
     "start": "开始时间",
     "end": "结束时间",
-    "placeholder": "时:分:秒"
+    "placeholder": "HH:MM:SS",
+    "hint": "格式 {{example}}（例如：1 分 30 秒）"
+  },
+  "file": {
+    "supportedFormats": "支持的格式",
+    "maxFileSize": "最大文件大小：{{size}}",
+    "selected": "已选择文件：\"{{name}}\""
+  },
+  "conversion": {
+    "success": "转换完成！"
+  },
+  "privacy": {
+    "localProcessing": "所有处理都在您的浏览器中进行。不会上传任何文件到服务器。"
+  },
+  "download": {
+    "started": "开始下载"
   },
   "languages": {
     "en": "English",
     "zh": "中文",
     "fr": "Français",
-    "es": "Español", 
+    "es": "Español",
     "ru": "Русский",
     "ar": "العربية",
     "pt": "Português",
@@ -57,5 +99,8 @@
     "unsupportedFormat": "不支持的文件格式",
     "fileTooLarge": "文件过大",
     "conversionFailed": "转换失败"
+  },
+  "footer": {
+    "tagline": "© 2024 音频转换器 — 简洁、私密、快速。"
   }
 }

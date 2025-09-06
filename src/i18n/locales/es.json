@@ -5,7 +5,18 @@
   },
   "header": {
     "title": "Conversor de Formato de Audio",
-    "subtitle": "Conversión de audio profesional con opciones avanzadas"
+    "subtitle": "Convierte tus archivos de audio al instante - sin subidas, completamente privado, funciona en tu navegador"
+  },
+  "benefits": {
+    "noUpload": "Sin subir archivos",
+    "batch": "Procesamiento por lotes",
+    "fast": "Rápido como un rayo"
+  },
+  "steps": {
+    "selectFormat": "Elegir formato",
+    "selectFiles": "Seleccionar archivos",
+    "adjustSettings": "Ajustar configuración",
+    "convertDownload": "Convertir y descargar"
   },
   "converter": {
     "selectFile": "Seleccionar Archivo de Audio",
@@ -15,7 +26,8 @@
     "download": "Descargar",
     "fromFormat": "De",
     "toFormat": "A",
-    "options": "Opciones"
+    "options": "Opciones",
+    "autoDetect": "Detección automática"
   },
   "formats": {
     "mp3": "MP3",
@@ -26,6 +38,15 @@
     "m4a": "M4A",
     "wma": "WMA"
   },
+  "formatDesc": {
+    "mp3": "Más compatible",
+    "wav": "Sin compresión",
+    "aac": "Alta calidad",
+    "flac": "Sin pérdidas",
+    "ogg": "Código abierto",
+    "m4a": "Formato Apple",
+    "wma": "Formato Windows"
+  },
   "audioOptions": {
     "quality": "Calidad de Audio",
     "bitrate": "Tasa de Bits",
@@ -34,13 +55,34 @@
     "volume": "Volumen",
     "mono": "Mono",
     "stereo": "Estéreo",
-    "noChange": "Sin Cambios"
+    "noChange": "Sin Cambios",
+    "qualityLevels": {
+      "low": "Baja",
+      "medium": "Media",
+      "high": "Alta",
+      "highest": "Máxima"
+    }
   },
   "trim": {
     "title": "Recortar Audio",
     "start": "Tiempo de Inicio",
     "end": "Tiempo de Fin",
-    "placeholder": "HH:MM:SS"
+    "placeholder": "HH:MM:SS",
+    "hint": "Formato {{example}} (p. ej., 1 minuto 30 segundos)"
+  },
+  "file": {
+    "supportedFormats": "Formatos compatibles",
+    "maxFileSize": "Tamaño máximo de archivo: {{size}}",
+    "selected": "Archivo \"{{name}}\" seleccionado"
+  },
+  "conversion": {
+    "success": "¡Conversión completada con éxito!"
+  },
+  "privacy": {
+    "localProcessing": "Todo el procesamiento ocurre en tu navegador. No se suben archivos a ningún servidor."
+  },
+  "download": {
+    "started": "¡Descarga iniciada!"
   },
   "languages": {
     "en": "English",
@@ -57,5 +99,8 @@
     "unsupportedFormat": "Formato de archivo no soportado",
     "fileTooLarge": "Archivo demasiado grande",
     "conversionFailed": "Falló la conversión"
+  },
+  "footer": {
+    "tagline": "© 2024 Conversor de Audio — Simple, privado y rápido."
   }
 }

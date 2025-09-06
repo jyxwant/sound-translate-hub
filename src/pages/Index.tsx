@@ -1,55 +1,93 @@
 import { useTranslation } from "react-i18next";
-import { AudioConverter } from "@/components/AudioConverter";
-import { LanguageSelector } from "@/components/LanguageSelector";
-import { Music2 } from "lucide-react";
+import { AudioConverter } from "@/features/converter/components/AudioConverter";
+import { Layout } from "@/components/layout/Layout";
+import { Files, Zap, Shield, ArrowRight } from "lucide-react";
 
 const Index = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const dir = i18n.dir();
+
+  const features = [
+    {
+      icon: Files,
+      titleKey: "benefits.batch",
+      descKey: "features.batchDesc",
+      highlight: true,
+    },
+    {
+      icon: Shield,
+      titleKey: "benefits.noUpload", 
+      descKey: "features.privacyDesc",
+    },
+    {
+      icon: Zap,
+      titleKey: "benefits.fast",
+      descKey: "features.speedDesc",
+    },
+  ];
 
   return (
-    <div className="min-h-screen bg-background">
-      {/* Header */}
-      <header className="border-b bg-card/50 backdrop-blur-sm sticky top-0 z-10">
-        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <div className="p-2 bg-primary/10 rounded-lg">
-              <Music2 className="h-6 w-6 text-primary" />
-            </div>
-            <div>
-              <h1 className="text-xl font-bold">{t("app.title")}</h1>
-              <p className="text-sm text-muted-foreground hidden sm:block">
-                {t("app.description")}
-              </p>
-            </div>
-          </div>
-          <LanguageSelector />
-        </div>
-      </header>
-
-      {/* Hero Section */}
-      <section className="py-16 bg-gradient-to-b from-primary/5 to-background">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
+    <Layout>
+      {/* Hero Section - Professional and Clean */}
+      <div className="text-center mb-16">
+        <div className="max-w-4xl mx-auto">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold text-foreground mb-6 tracking-tight">
             {t("header.title")}
-          </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          </h1>
+          
+          <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-8">
             {t("header.subtitle")}
           </p>
-        </div>
-      </section>
+          
+          {/* Key Features - Highlight Batch Processing */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+            {features.map((feature, index) => {
+              const Icon = feature.icon;
+              return (
+                <div 
+                  key={index}
+                  className={`card-modern p-6 text-center ${
+                    feature.highlight 
+                      ? 'ring-2 ring-primary/20 bg-primary/5' 
+                      : ''
+                  }`}
+                >
+                  <div className={`w-12 h-12 mx-auto mb-4 rounded-full flex items-center justify-center ${
+                    feature.highlight 
+                      ? 'bg-primary text-primary-foreground' 
+                      : 'bg-muted text-muted-foreground'
+                  }`}>
+                    <Icon className="w-6 h-6" />
+                  </div>
+                  <h3 className="font-semibold text-foreground mb-2">
+                    {t(feature.titleKey)}
+                  </h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    {t(feature.descKey)}
+                  </p>
+                  {feature.highlight && (
+                    <div className="mt-3 text-xs font-medium text-primary">
+                      {t("features.mainSelling")}
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
 
-      {/* Main Content */}
-      <main className="container mx-auto px-4 py-12">
+          {/* CTA Section */}
+          <div className="inline-flex items-center gap-2 text-muted-foreground text-sm">
+            <span>{t("cta.getStarted")}</span>
+            <ArrowRight className={`w-4 h-4 ${dir === 'rtl' ? 'rtl-flip' : ''}`} />
+          </div>
+        </div>
+      </div>
+
+      {/* Main Converter - Clean Professional Design */}
+      <div className="max-w-4xl mx-auto">
         <AudioConverter />
-      </main>
-
-      {/* Footer */}
-      <footer className="border-t bg-card/30 mt-20">
-        <div className="container mx-auto px-4 py-8 text-center text-muted-foreground">
-          <p>© 2024 Audio Converter. Professional audio conversion service.</p>
-        </div>
-      </footer>
-    </div>
+      </div>
+    </Layout>
   );
 };
 

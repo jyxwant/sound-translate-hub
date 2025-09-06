@@ -8,6 +8,12 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
+    // Enable cross-origin isolation to unlock WASM threads (opt-in)
+    // Set ENABLE_ISOLATION=1 in your env to activate.
+    headers: process.env.ENABLE_ISOLATION === '1' ? {
+      'Cross-Origin-Opener-Policy': 'same-origin',
+      'Cross-Origin-Embedder-Policy': 'require-corp',
+    } : undefined,
   },
   plugins: [
     react(),

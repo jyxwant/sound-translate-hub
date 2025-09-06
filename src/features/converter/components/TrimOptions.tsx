@@ -36,7 +36,7 @@ export const TrimOptions = ({ settings, onSettingsChange }: TrimOptionsProps) =>
               pattern="[0-9]{2}:[0-9]{2}:[0-9]{2}"
             />
           </div>
-          
+
           <div className="space-y-2">
             <Label htmlFor="trimEnd">{t("trim.end")}</Label>
             <Input
@@ -48,11 +48,12 @@ export const TrimOptions = ({ settings, onSettingsChange }: TrimOptionsProps) =>
             />
           </div>
         </div>
-        
+
         <p className="text-xs text-muted-foreground mt-2">
-          {t("trim.placeholder")} format (e.g., 00:01:30 for 1 minute 30 seconds)
+          {t("trim.hint", { example: "00:01:30" })}
         </p>
       </CardContent>
     </Card>
   );
 };
+

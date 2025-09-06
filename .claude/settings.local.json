@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev:*)",
+      "Bash(for:*)",
+      "Bash(do echo \"Checking $file...\")",
+      "Bash(echo:*)",
+      "Bash(done)",
+      "Read(/D:\\ai\\web_build\\sound-translate-hub\\src\\pages/**)",
+      "Read(/D:\\ai\\web_build\\sound-translate-hub\\src/**)",
+      "Bash(npx playwright test:*)",
+      "Bash(npm run test:arabic:*)",
+      "Bash(npm run:*)",
+      "Bash(node:*)",
+      "Bash(npm test)",
+      "WebSearch",
+      "Bash(npm install:*)",
+      "Bash(curl:*)",
+      "Bash(npm uninstall:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -5,7 +5,18 @@
   },
   "header": {
     "title": "オーディオフォーマットコンバーター",
-    "subtitle": "高度なオプション付きのプロフェッショナルなオーディオ変換"
+    "subtitle": "音声ファイルを即座に変換 - アップロード不要、完全プライベート、ブラウザで動作"
+  },
+  "benefits": {
+    "noUpload": "ファイルのアップロード不要",
+    "batch": "バッチ処理",
+    "fast": "稲妻のように高速"
+  },
+  "steps": {
+    "selectFormat": "フォーマットを選択",
+    "selectFiles": "ファイルを選択",
+    "adjustSettings": "設定を調整",
+    "convertDownload": "変換してダウンロード"
   },
   "converter": {
     "selectFile": "オーディオファイルを選択",
@@ -15,7 +26,8 @@
     "download": "ダウンロード",
     "fromFormat": "変換元",
     "toFormat": "変換先",
-    "options": "オプション"
+    "options": "オプション",
+    "autoDetect": "自動検出"
   },
   "formats": {
     "mp3": "MP3",
@@ -26,6 +38,15 @@
     "m4a": "M4A",
     "wma": "WMA"
   },
+  "formatDesc": {
+    "mp3": "最も互換性が高い",
+    "wav": "非圧縮",
+    "aac": "高品質",
+    "flac": "可逆圧縮",
+    "ogg": "オープンソース",
+    "m4a": "Apple形式",
+    "wma": "Windows形式"
+  },
   "audioOptions": {
     "quality": "音質",
     "bitrate": "ビットレート",
@@ -34,13 +55,34 @@
     "volume": "音量",
     "mono": "モノラル",
     "stereo": "ステレオ",
-    "noChange": "変更なし"
+    "noChange": "変更なし",
+    "qualityLevels": {
+      "low": "低",
+      "medium": "中",
+      "high": "高",
+      "highest": "最高"
+    }
   },
   "trim": {
     "title": "オーディオトリム",
     "start": "開始時間",
     "end": "終了時間",
-    "placeholder": "時:分:秒"
+    "placeholder": "時:分:秒",
+    "hint": "形式 {{example}} (例: 1分30秒)"
+  },
+  "file": {
+    "supportedFormats": "サポート形式",
+    "maxFileSize": "最大ファイルサイズ: {{size}}",
+    "selected": "ファイル\"{{name}}\"を選択しました"
+  },
+  "conversion": {
+    "success": "変換が成功しました！"
+  },
+  "privacy": {
+    "localProcessing": "すべての処理はお使いのブラウザ内で行われます。ファイルはサーバーにアップロードされません。"
+  },
+  "download": {
+    "started": "ダウンロードを開始しました！"
   },
   "languages": {
     "en": "English",
@@ -57,5 +99,8 @@
     "unsupportedFormat": "サポートされていないファイル形式",
     "fileTooLarge": "ファイルサイズが大きすぎます",
     "conversionFailed": "変換に失敗しました"
+  },
+  "footer": {
+    "tagline": "© 2024 オーディオコンバーター — シンプル、プライベート、高速。"
   }
 }

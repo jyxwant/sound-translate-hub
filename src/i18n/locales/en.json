@@ -1,11 +1,31 @@
 {
   "app": {
     "title": "Audio Converter",
-    "description": "Convert your audio files online. Supports MP3, WAV, AAC, FLAC, and more formats."
+    "description": "Convert audio online with a clean, fast UI."
   },
   "header": {
     "title": "Audio Format Converter",
-    "subtitle": "Professional audio conversion with advanced options"
+    "subtitle": "Convert your audio files instantly - no uploads, completely private, works in your browser"
+  },
+  "benefits": {
+    "noUpload": "No file uploads",
+    "batch": "Batch processing",
+    "fast": "Lightning fast"
+  },
+  "features": {
+    "batchDesc": "Upload and convert multiple audio files simultaneously. Save time with batch processing.",
+    "privacyDesc": "All processing happens locally in your browser. Your files never leave your device.", 
+    "speedDesc": "Fast conversion powered by WebAssembly. No waiting, instant results.",
+    "mainSelling": "🚀 Our Main Feature"
+  },
+  "cta": {
+    "getStarted": "Get started below"
+  },
+  "steps": {
+    "selectFormat": "Choose formats",
+    "selectFiles": "Select your files",
+    "adjustSettings": "Adjust settings",
+    "convertDownload": "Convert & download"
   },
   "converter": {
     "selectFile": "Select Audio File",
@@ -15,16 +35,27 @@
     "download": "Download",
     "fromFormat": "From",
     "toFormat": "To",
-    "options": "Options"
+    "options": "Options",
+    "autoDetect": "Auto-detect",
+    "selectFormat": "Select Format"
   },
   "formats": {
     "mp3": "MP3",
-    "wav": "WAV", 
+    "wav": "WAV",
     "aac": "AAC",
     "flac": "FLAC",
     "ogg": "OGG",
     "m4a": "M4A",
     "wma": "WMA"
+  },
+  "formatDesc": {
+    "mp3": "Most compatible",
+    "wav": "Uncompressed",
+    "aac": "High quality",
+    "flac": "Lossless",
+    "ogg": "Open source",
+    "m4a": "Apple format",
+    "wma": "Windows format"
   },
   "audioOptions": {
     "quality": "Audio Quality",
@@ -34,18 +65,39 @@
     "volume": "Volume",
     "mono": "Mono",
     "stereo": "Stereo",
-    "noChange": "No Change"
+    "noChange": "No Change",
+    "qualityLevels": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High",
+      "highest": "Highest"
+    }
   },
   "trim": {
     "title": "Trim Audio",
     "start": "Start Time",
     "end": "End Time",
-    "placeholder": "HH:MM:SS"
+    "placeholder": "HH:MM:SS",
+    "hint": "Format {{example}} (e.g., 1 minute 30 seconds)"
+  },
+  "file": {
+    "supportedFormats": "Supported formats",
+    "maxFileSize": "Maximum file size: {{size}}",
+    "selected": "File \"{{name}}\" selected"
+  },
+  "conversion": {
+    "success": "Conversion completed successfully!"
+  },
+  "privacy": {
+    "localProcessing": "All processing happens in your browser. No files are uploaded to any server."
+  },
+  "download": {
+    "started": "Download started!"
   },
   "languages": {
     "en": "English",
     "zh": "中文",
-    "fr": "Français", 
+    "fr": "Français",
     "es": "Español",
     "ru": "Русский",
     "ar": "العربية",
@@ -57,5 +109,8 @@
     "unsupportedFormat": "Unsupported file format",
     "fileTooLarge": "File size too large",
     "conversionFailed": "Conversion failed"
+  },
+  "footer": {
+    "tagline": "© 2024 Audio Converter — Simple, private, and fast."
   }
 }

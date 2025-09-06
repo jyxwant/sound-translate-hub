@@ -18,6 +18,24 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				sans: [
+					'"SF Pro Text"',
+					'"SF Pro Display"',
+					'-apple-system',
+					'BlinkMacSystemFont',
+					'"Segoe UI"',
+					'Inter',
+					'Roboto',
+					'"Helvetica Neue"',
+					'Arial',
+					'"Noto Sans"',
+					'"Apple Color Emoji"',
+					'"Segoe UI Emoji"',
+					'"Segoe UI Symbol"',
+					'sans-serif',
+				],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -28,10 +46,17 @@ export default {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
 				},
-				brand: {
-					DEFAULT: 'hsl(var(--brand))',
-					hover: 'hsl(var(--brand-hover))',
-					light: 'hsl(var(--brand-light))'
+				success: {
+					DEFAULT: 'hsl(var(--success))',
+					light: 'hsl(var(--success-light))'
+				},
+				warning: {
+					DEFAULT: 'hsl(var(--warning))',
+					light: 'hsl(var(--warning-light))'
+				},
+				info: {
+					DEFAULT: 'hsl(var(--info))',
+					light: 'hsl(var(--info-light))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',

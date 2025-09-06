@@ -5,7 +5,18 @@
   },
   "header": {
     "title": "오디오 형식 변환기",
-    "subtitle": "고급 옵션을 제공하는 전문 오디오 변환"
+    "subtitle": "오디오 파일을 즉시 변환 - 업로드 없음, 완전 비공개, 브라우저에서 실행"
+  },
+  "benefits": {
+    "noUpload": "파일 업로드 없음",
+    "batch": "일괄 처리",
+    "fast": "번개같이 빠름"
+  },
+  "steps": {
+    "selectFormat": "형식 선택",
+    "selectFiles": "파일 선택",
+    "adjustSettings": "설정 조정",
+    "convertDownload": "변환 및 다운로드"
   },
   "converter": {
     "selectFile": "오디오 파일 선택",
@@ -15,7 +26,8 @@
     "download": "다운로드",
     "fromFormat": "원본",
     "toFormat": "대상",
-    "options": "옵션"
+    "options": "옵션",
+    "autoDetect": "자동 감지"
   },
   "formats": {
     "mp3": "MP3",
@@ -26,6 +38,15 @@
     "m4a": "M4A",
     "wma": "WMA"
   },
+  "formatDesc": {
+    "mp3": "가장 호환 가능",
+    "wav": "비압축",
+    "aac": "고품질",
+    "flac": "무손실",
+    "ogg": "오픈 소스",
+    "m4a": "Apple 형식",
+    "wma": "Windows 형식"
+  },
   "audioOptions": {
     "quality": "오디오 품질",
     "bitrate": "비트레이트",
@@ -34,13 +55,34 @@
     "volume": "볼륨",
     "mono": "모노",
     "stereo": "스테레오",
-    "noChange": "변경 없음"
+    "noChange": "변경 없음",
+    "qualityLevels": {
+      "low": "낮음",
+      "medium": "중간",
+      "high": "높음",
+      "highest": "최고"
+    }
   },
   "trim": {
     "title": "오디오 자르기",
     "start": "시작 시간",
     "end": "종료 시간",
-    "placeholder": "시:분:초"
+    "placeholder": "시:분:초",
+    "hint": "형식 {{example}} (예: 1분 30초)"
+  },
+  "file": {
+    "supportedFormats": "지원 형식",
+    "maxFileSize": "최대 파일 크기: {{size}}",
+    "selected": "파일 \"{{name}}\"을 선택했습니다"
+  },
+  "conversion": {
+    "success": "변환이 성공적으로 완료되었습니다!"
+  },
+  "privacy": {
+    "localProcessing": "모든 처리는 브라우저에서 수행됩니다. 파일은 어떤 서버에도 업로드되지 않습니다."
+  },
+  "download": {
+    "started": "다운로드가 시작되었습니다!"
   },
   "languages": {
     "en": "English",
@@ -57,5 +99,8 @@
     "unsupportedFormat": "지원되지 않는 파일 형식",
     "fileTooLarge": "파일 크기가 너무 큽니다",
     "conversionFailed": "변환에 실패했습니다"
+  },
+  "footer": {
+    "tagline": "© 2024 오디오 변환기 — 간단하고 비공개이며 빠릅니다."
   }
 }

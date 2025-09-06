@@ -9,7 +9,6 @@ import fr from "./locales/fr.json";
 import es from "./locales/es.json";
 import ru from "./locales/ru.json";
 import ar from "./locales/ar.json";
-import pt from "./locales/pt.json";
 import ja from "./locales/ja.json";
 import ko from "./locales/ko.json";
 
@@ -24,13 +23,14 @@ i18n
       es: { translation: es },
       ru: { translation: ru },
       ar: { translation: ar },
-      pt: { translation: pt },
       ja: { translation: ja },
       ko: { translation: ko },
     },
     fallbackLng: "en",
+    supportedLngs: ["en", "zh", "fr", "es", "ru", "ar", "ja", "ko"],
+    nonExplicitSupportedLngs: true,
     detection: {
-      order: ["localStorage", "navigator", "htmlTag"],
+      order: ["localStorage", "querystring", "navigator", "htmlTag"],
       lookupLocalStorage: "i18nextLng",
       caches: ["localStorage"],
     },

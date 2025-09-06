@@ -1,0 +1,782 @@
+{
+  "en": {
+    "language": "英语",
+    "htmlLang": "zh",
+    "htmlDir": "ltr",
+    "bodyClasses": "",
+    "selectCount": 5,
+    "selectInfo": [
+      {
+        "index": 0,
+        "text": "自动识别",
+        "textLength": 4,
+        "width": 399,
+        "height": 48,
+        "direction": "ltr",
+        "textAlign": "center",
+        "overflow": "visible",
+        "whiteSpace": "normal"
+      },
+      {
+        "index": 1,
+        "text": "MP3兼容性最好",
+        "textLength": 8,
+        "width": 399,
+        "height": 48,
+        "direction": "ltr",
+        "textAlign": "center",
+        "overflow": "visible",
+        "whiteSpace": "normal"
+      },
+      {
+        "index": 2,
+        "text": "320 kbps",
+        "textLength": 8,
+        "width": 399,
+        "height": 40,
+        "direction": "ltr",
+        "textAlign": "center",
+        "overflow": "visible",
+        "whiteSpace": "normal"
+      },
+      {
+        "index": 3,
+        "text": "44.1 kHz",
+        "textLength": 8,
+        "width": 399,
+        "height": 40,
+        "direction": "ltr",
+        "textAlign": "center",
+        "overflow": "visible",
+        "whiteSpace": "normal"
+      },
+      {
+        "index": 4,
+        "text": "立体声",
+        "textLength": 3,
+        "width": 399,
+        "height": 40,
+        "direction": "ltr",
+        "textAlign": "center",
+        "overflow": "visible",
+        "whiteSpace": "normal"
+      }
+    ],
+    "labelInfo": [
+      {
+        "index": 0,
+        "text": "源格式",
+        "textLength": 3
+      },
+      {
+        "index": 1,
+        "text": "目标格式",
+        "textLength": 4
+      },
+      {
+        "index": 2,
+        "text": "比特率",
+        "textLength": 3
+      },
+      {
+        "index": 3,
+        "text": "采样率",
+        "textLength": 3
+      },
+      {
+        "index": 4,
+        "text": "声道",
+        "textLength": 2
+      }
+    ],
+    "overflowCount": 17,
+    "overflowElements": [
+      {
+        "tagName": "DIV",
+        "className": "flex items-center gap-3 rtl:order-2",
+        "text": "音频转换器简洁快速的线上音频转换。...",
+        "scrollWidth": 218,
+        "clientWidth": 218
+      },
+      {
+        "tagName": "DIV",
+        "className": "",
+        "text": "音频转换器简洁快速的线上音频转换。...",
+        "scrollWidth": 166,
+        "clientWidth": 166
+      },
+      {
+        "tagName": "H1",
+        "className": "text-xl font-semibold tracking-tight",
+        "text": "音频转换器...",
+        "scrollWidth": 166,
+        "clientWidth": 166
+      },
+      {
+        "tagName": "P",
+        "className": "text-sm text-muted-foreground hidden sm:block",
+        "text": "简洁快速的线上音频转换。...",
+        "scrollWidth": 166,
+        "clientWidth": 166
+      },
+      {
+        "tagName": "DIV",
+        "className": "rtl:order-1",
+        "text": "中文...",
+        "scrollWidth": 78,
+        "clientWidth": 78
+      }
+    ],
+    "screenshotPath": "test/language-screenshots/screenshot-en.png"
+  },
+  "zh": {
+    "language": "中文",
+    "htmlLang": "zh",
+    "htmlDir": "ltr",
+    "bodyClasses": "",
+    "selectCount": 5,
+    "selectInfo": [
+      {
+        "index": 0,
+        "text": "自动识别",
+        "textLength": 4,
+        "width": 399,
+        "height": 48,
+        "direction": "ltr",
+        "textAlign": "center",
+        "overflow": "visible",
+        "whiteSpace": "normal"
+      },
+      {
+        "index": 1,
+        "text": "MP3兼容性最好",
+        "textLength": 8,
+        "width": 399,
+        "height": 48,
+        "direction": "ltr",
+        "textAlign": "center",
+        "overflow": "visible",
+        "whiteSpace": "normal"
+      },
+      {
+        "index": 2,
+        "text": "320 kbps",
+        "textLength": 8,
+        "width": 399,
+        "height": 40,
+        "direction": "ltr",
+        "textAlign": "center",
+        "overflow": "visible",
+        "whiteSpace": "normal"
+      },
+      {
+        "index": 3,
+        "text": "44.1 kHz",
+        "textLength": 8,
+        "width": 399,
+        "height": 40,
+        "direction": "ltr",
+        "textAlign": "center",
+        "overflow": "visible",
+        "whiteSpace": "normal"
+      },
+      {
+        "index": 4,
+        "text": "立体声",
+        "textLength": 3,
+        "width": 399,
+        "height": 40,
+        "direction": "ltr",
+        "textAlign": "center",
+        "overflow": "visible",
+        "whiteSpace": "normal"
+      }
+    ],
+    "labelInfo": [
+      {
+        "index": 0,
+        "text": "源格式",
+        "textLength": 3
+      },
+      {
+        "index": 1,
+        "text": "目标格式",
+        "textLength": 4
+      },
+      {
+        "index": 2,
+        "text": "比特率",
+        "textLength": 3
+      },
+      {
+        "index": 3,
+        "text": "采样率",
+        "textLength": 3
+      },
+      {
+        "index": 4,
+        "text": "声道",
+        "textLength": 2
+      }
+    ],
+    "overflowCount": 17,
+    "overflowElements": [
+      {
+        "tagName": "DIV",
+        "className": "flex items-center gap-3 rtl:order-2",
+        "text": "音频转换器简洁快速的线上音频转换。...",
+        "scrollWidth": 218,
+        "clientWidth": 218
+      },
+      {
+        "tagName": "DIV",
+        "className": "",
+        "text": "音频转换器简洁快速的线上音频转换。...",
+        "scrollWidth": 166,
+        "clientWidth": 166
+      },
+      {
+        "tagName": "H1",
+        "className": "text-xl font-semibold tracking-tight",
+        "text": "音频转换器...",
+        "scrollWidth": 166,
+        "clientWidth": 166
+      },
+      {
+        "tagName": "P",
+        "className": "text-sm text-muted-foreground hidden sm:block",
+        "text": "简洁快速的线上音频转换。...",
+        "scrollWidth": 166,
+        "clientWidth": 166
+      },
+      {
+        "tagName": "DIV",
+        "className": "rtl:order-1",
+        "text": "中文...",
+        "scrollWidth": 78,
+        "clientWidth": 78
+      }
+    ],
+    "screenshotPath": "test/language-screenshots/screenshot-zh.png"
+  },
+  "ar": {
+    "language": "阿拉伯语",
+    "htmlLang": "zh",
+    "htmlDir": "ltr",
+    "bodyClasses": "",
+    "selectCount": 5,
+    "selectInfo": [
+      {
+        "index": 0,
+        "text": "自动识别",
+        "textLength": 4,
+        "width": 399,
+        "height": 48,
+        "direction": "ltr",
+        "textAlign": "center",
+        "overflow": "visible",
+        "whiteSpace": "normal"
+      },
+      {
+        "index": 1,
+        "text": "MP3兼容性最好",
+        "textLength": 8,
+        "width": 399,
+        "height": 48,
+        "direction": "ltr",
+        "textAlign": "center",
+        "overflow": "visible",
+        "whiteSpace": "normal"
+      },
+      {
+        "index": 2,
+        "text": "320 kbps",
+        "textLength": 8,
+        "width": 399,
+        "height": 40,
+        "direction": "ltr",
+        "textAlign": "center",
+        "overflow": "visible",
+        "whiteSpace": "normal"
+      },
+      {
+        "index": 3,
+        "text": "44.1 kHz",
+        "textLength": 8,
+        "width": 399,
+        "height": 40,
+        "direction": "ltr",
+        "textAlign": "center",
+        "overflow": "visible",
+        "whiteSpace": "normal"
+      },
+      {
+        "index": 4,
+        "text": "立体声",
+        "textLength": 3,
+        "width": 399,
+        "height": 40,
+        "direction": "ltr",
+        "textAlign": "center",
+        "overflow": "visible",
+        "whiteSpace": "normal"
+      }
+    ],
+    "labelInfo": [
+      {
+        "index": 0,
+        "text": "源格式",
+        "textLength": 3
+      },
+      {
+        "index": 1,
+        "text": "目标格式",
+        "textLength": 4
+      },
+      {
+        "index": 2,
+        "text": "比特率",
+        "textLength": 3
+      },
+      {
+        "index": 3,
+        "text": "采样率",
+        "textLength": 3
+      },
+      {
+        "index": 4,
+        "text": "声道",
+        "textLength": 2
+      }
+    ],
+    "overflowCount": 17,
+    "overflowElements": [
+      {
+        "tagName": "DIV",
+        "className": "flex items-center gap-3 rtl:order-2",
+        "text": "音频转换器简洁快速的线上音频转换。...",
+        "scrollWidth": 218,
+        "clientWidth": 218
+      },
+      {
+        "tagName": "DIV",
+        "className": "",
+        "text": "音频转换器简洁快速的线上音频转换。...",
+        "scrollWidth": 166,
+        "clientWidth": 166
+      },
+      {
+        "tagName": "H1",
+        "className": "text-xl font-semibold tracking-tight",
+        "text": "音频转换器...",
+        "scrollWidth": 166,
+        "clientWidth": 166
+      },
+      {
+        "tagName": "P",
+        "className": "text-sm text-muted-foreground hidden sm:block",
+        "text": "简洁快速的线上音频转换。...",
+        "scrollWidth": 166,
+        "clientWidth": 166
+      },
+      {
+        "tagName": "DIV",
+        "className": "rtl:order-1",
+        "text": "中文...",
+        "scrollWidth": 78,
+        "clientWidth": 78
+      }
+    ],
+    "screenshotPath": "test/language-screenshots/screenshot-ar.png"
+  },
+  "ja": {
+    "language": "日语",
+    "htmlLang": "zh",
+    "htmlDir": "ltr",
+    "bodyClasses": "",
+    "selectCount": 5,
+    "selectInfo": [
+      {
+        "index": 0,
+        "text": "自动识别",
+        "textLength": 4,
+        "width": 399,
+        "height": 48,
+        "direction": "ltr",
+        "textAlign": "center",
+        "overflow": "visible",
+        "whiteSpace": "normal"
+      },
+      {
+        "index": 1,
+        "text": "MP3兼容性最好",
+        "textLength": 8,
+        "width": 399,
+        "height": 48,
+        "direction": "ltr",
+        "textAlign": "center",
+        "overflow": "visible",
+        "whiteSpace": "normal"
+      },
+      {
+        "index": 2,
+        "text": "320 kbps",
+        "textLength": 8,
+        "width": 399,
+        "height": 40,
+        "direction": "ltr",
+        "textAlign": "center",
+        "overflow": "visible",
+        "whiteSpace": "normal"
+      },
+      {
+        "index": 3,
+        "text": "44.1 kHz",
+        "textLength": 8,
+        "width": 399,
+        "height": 40,
+        "direction": "ltr",
+        "textAlign": "center",
+        "overflow": "visible",
+        "whiteSpace": "normal"
+      },
+      {
+        "index": 4,
+        "text": "立体声",
+        "textLength": 3,
+        "width": 399,
+        "height": 40,
+        "direction": "ltr",
+        "textAlign": "center",
+        "overflow": "visible",
+        "whiteSpace": "normal"
+      }
+    ],
+    "labelInfo": [
+      {
+        "index": 0,
+        "text": "源格式",
+        "textLength": 3
+      },
+      {
+        "index": 1,
+        "text": "目标格式",
+        "textLength": 4
+      },
+      {
+        "index": 2,
+        "text": "比特率",
+        "textLength": 3
+      },
+      {
+        "index": 3,
+        "text": "采样率",
+        "textLength": 3
+      },
+      {
+        "index": 4,
+        "text": "声道",
+        "textLength": 2
+      }
+    ],
+    "overflowCount": 17,
+    "overflowElements": [
+      {
+        "tagName": "DIV",
+        "className": "flex items-center gap-3 rtl:order-2",
+        "text": "音频转换器简洁快速的线上音频转换。...",
+        "scrollWidth": 218,
+        "clientWidth": 218
+      },
+      {
+        "tagName": "DIV",
+        "className": "",
+        "text": "音频转换器简洁快速的线上音频转换。...",
+        "scrollWidth": 166,
+        "clientWidth": 166
+      },
+      {
+        "tagName": "H1",
+        "className": "text-xl font-semibold tracking-tight",
+        "text": "音频转换器...",
+        "scrollWidth": 166,
+        "clientWidth": 166
+      },
+      {
+        "tagName": "P",
+        "className": "text-sm text-muted-foreground hidden sm:block",
+        "text": "简洁快速的线上音频转换。...",
+        "scrollWidth": 166,
+        "clientWidth": 166
+      },
+      {
+        "tagName": "DIV",
+        "className": "rtl:order-1",
+        "text": "中文...",
+        "scrollWidth": 78,
+        "clientWidth": 78
+      }
+    ],
+    "screenshotPath": "test/language-screenshots/screenshot-ja.png"
+  },
+  "ko": {
+    "language": "韩语",
+    "htmlLang": "zh",
+    "htmlDir": "ltr",
+    "bodyClasses": "",
+    "selectCount": 5,
+    "selectInfo": [
+      {
+        "index": 0,
+        "text": "自动识别",
+        "textLength": 4,
+        "width": 399,
+        "height": 48,
+        "direction": "ltr",
+        "textAlign": "center",
+        "overflow": "visible",
+        "whiteSpace": "normal"
+      },
+      {
+        "index": 1,
+        "text": "MP3兼容性最好",
+        "textLength": 8,
+        "width": 399,
+        "height": 48,
+        "direction": "ltr",
+        "textAlign": "center",
+        "overflow": "visible",
+        "whiteSpace": "normal"
+      },
+      {
+        "index": 2,
+        "text": "320 kbps",
+        "textLength": 8,
+        "width": 399,
+        "height": 40,
+        "direction": "ltr",
+        "textAlign": "center",
+        "overflow": "visible",
+        "whiteSpace": "normal"
+      },
+      {
+        "index": 3,
+        "text": "44.1 kHz",
+        "textLength": 8,
+        "width": 399,
+        "height": 40,
+        "direction": "ltr",
+        "textAlign": "center",
+        "overflow": "visible",
+        "whiteSpace": "normal"
+      },
+      {
+        "index": 4,
+        "text": "立体声",
+        "textLength": 3,
+        "width": 399,
+        "height": 40,
+        "direction": "ltr",
+        "textAlign": "center",
+        "overflow": "visible",
+        "whiteSpace": "normal"
+      }
+    ],
+    "labelInfo": [
+      {
+        "index": 0,
+        "text": "源格式",
+        "textLength": 3
+      },
+      {
+        "index": 1,
+        "text": "目标格式",
+        "textLength": 4
+      },
+      {
+        "index": 2,
+        "text": "比特率",
+        "textLength": 3
+      },
+      {
+        "index": 3,
+        "text": "采样率",
+        "textLength": 3
+      },
+      {
+        "index": 4,
+        "text": "声道",
+        "textLength": 2
+      }
+    ],
+    "overflowCount": 17,
+    "overflowElements": [
+      {
+        "tagName": "DIV",
+        "className": "flex items-center gap-3 rtl:order-2",
+        "text": "音频转换器简洁快速的线上音频转换。...",
+        "scrollWidth": 218,
+        "clientWidth": 218
+      },
+      {
+        "tagName": "DIV",
+        "className": "",
+        "text": "音频转换器简洁快速的线上音频转换。...",
+        "scrollWidth": 166,
+        "clientWidth": 166
+      },
+      {
+        "tagName": "H1",
+        "className": "text-xl font-semibold tracking-tight",
+        "text": "音频转换器...",
+        "scrollWidth": 166,
+        "clientWidth": 166
+      },
+      {
+        "tagName": "P",
+        "className": "text-sm text-muted-foreground hidden sm:block",
+        "text": "简洁快速的线上音频转换。...",
+        "scrollWidth": 166,
+        "clientWidth": 166
+      },
+      {
+        "tagName": "DIV",
+        "className": "rtl:order-1",
+        "text": "中文...",
+        "scrollWidth": 78,
+        "clientWidth": 78
+      }
+    ],
+    "screenshotPath": "test/language-screenshots/screenshot-ko.png"
+  },
+  "ru": {
+    "language": "俄语",
+    "htmlLang": "zh",
+    "htmlDir": "ltr",
+    "bodyClasses": "",
+    "selectCount": 5,
+    "selectInfo": [
+      {
+        "index": 0,
+        "text": "自动识别",
+        "textLength": 4,
+        "width": 399,
+        "height": 48,
+        "direction": "ltr",
+        "textAlign": "center",
+        "overflow": "visible",
+        "whiteSpace": "normal"
+      },
+      {
+        "index": 1,
+        "text": "MP3兼容性最好",
+        "textLength": 8,
+        "width": 399,
+        "height": 48,
+        "direction": "ltr",
+        "textAlign": "center",
+        "overflow": "visible",
+        "whiteSpace": "normal"
+      },
+      {
+        "index": 2,
+        "text": "320 kbps",
+        "textLength": 8,
+        "width": 399,
+        "height": 40,
+        "direction": "ltr",
+        "textAlign": "center",
+        "overflow": "visible",
+        "whiteSpace": "normal"
+      },
+      {
+        "index": 3,
+        "text": "44.1 kHz",
+        "textLength": 8,
+        "width": 399,
+        "height": 40,
+        "direction": "ltr",
+        "textAlign": "center",
+        "overflow": "visible",
+        "whiteSpace": "normal"
+      },
+      {
+        "index": 4,
+        "text": "立体声",
+        "textLength": 3,
+        "width": 399,
+        "height": 40,
+        "direction": "ltr",
+        "textAlign": "center",
+        "overflow": "visible",
+        "whiteSpace": "normal"
+      }
+    ],
+    "labelInfo": [
+      {
+        "index": 0,
+        "text": "源格式",
+        "textLength": 3
+      },
+      {
+        "index": 1,
+        "text": "目标格式",
+        "textLength": 4
+      },
+      {
+        "index": 2,
+        "text": "比特率",
+        "textLength": 3
+      },
+      {
+        "index": 3,
+        "text": "采样率",
+        "textLength": 3
+      },
+      {
+        "index": 4,
+        "text": "声道",
+        "textLength": 2
+      }
+    ],
+    "overflowCount": 17,
+    "overflowElements": [
+      {
+        "tagName": "DIV",
+        "className": "flex items-center gap-3 rtl:order-2",
+        "text": "音频转换器简洁快速的线上音频转换。...",
+        "scrollWidth": 218,
+        "clientWidth": 218
+      },
+      {
+        "tagName": "DIV",
+        "className": "",
+        "text": "音频转换器简洁快速的线上音频转换。...",
+        "scrollWidth": 166,
+        "clientWidth": 166
+      },
+      {
+        "tagName": "H1",
+        "className": "text-xl font-semibold tracking-tight",
+        "text": "音频转换器...",
+        "scrollWidth": 166,
+        "clientWidth": 166
+      },
+      {
+        "tagName": "P",
+        "className": "text-sm text-muted-foreground hidden sm:block",
+        "text": "简洁快速的线上音频转换。...",
+        "scrollWidth": 166,
+        "clientWidth": 166
+      },
+      {
+        "tagName": "DIV",
+        "className": "rtl:order-1",
+        "text": "中文...",
+        "scrollWidth": 78,
+        "clientWidth": 78
+      }
+    ],
+    "screenshotPath": "test/language-screenshots/screenshot-ru.png"
+  }
+}
