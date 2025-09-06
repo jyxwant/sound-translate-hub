@@ -111,6 +111,8 @@
     "conversionFailed": "Conversion failed"
   },
   "footer": {
-    "tagline": "© 2024 Audio Converter — Simple, private, and fast."
+    "tagline": "© 2024 Audio Converter — Simple, private, and fast.",
+    "github": "View on GitHub",
+    "openSource": "Open source and privacy-focused audio converter"
   }
 }

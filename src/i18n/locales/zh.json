@@ -101,6 +101,8 @@
     "conversionFailed": "转换失败"
   },
   "footer": {
-    "tagline": "© 2024 音频转换器 — 简洁、私密、快速。"
+    "tagline": "© 2024 音频转换器 — 简洁、私密、快速。",
+    "github": "在 GitHub 上查看",
+    "openSource": "开源且注重隐私的音频转换器"
   }
 }
