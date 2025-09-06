@@ -1,11 +1,11 @@
-# Robots.txt for Sound Translate Hub
-# https://sound-translate-hub.vercel.app/robots.txt
+# Robots.txt for Audio Converter
+# https://audioconverter.tech/robots.txt
 
 User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://sound-translate-hub.vercel.app/sitemap.xml
+Sitemap: https://audioconverter.tech/sitemap.xml
 
 # Block access to source maps and development files
 Disallow: /src/
