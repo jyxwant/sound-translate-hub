@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Main Page -->
+  <url>
+    <loc>https://sound-translate-hub.vercel.app/</loc>
+    <lastmod>2024-12-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    
+    <!-- Multi-language alternatives -->
+    <xhtml:link rel="alternate" hreflang="en" href="https://sound-translate-hub.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://sound-translate-hub.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sound-translate-hub.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://sound-translate-hub.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sound-translate-hub.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://sound-translate-hub.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sound-translate-hub.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://sound-translate-hub.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sound-translate-hub.vercel.app/" />
+    
+    <!-- Images for rich snippets -->
+    <image:image>
+      <image:loc>https://sound-translate-hub.vercel.app/og-image.png</image:loc>
+      <image:title>Sound Translate Hub - Fast Audio Converter</image:title>
+      <image:caption>Lightning-fast audio converter that works in your browser</image:caption>
+    </image:image>
+  </url>
+
+  <!-- GitHub Repository -->
+  <url>
+    <loc>https://github.com/jyxwant/sound-translate-hub</loc>
+    <lastmod>2024-12-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Documentation (if exists) -->
+  <url>
+    <loc>https://github.com/jyxwant/sound-translate-hub/wiki</loc>
+    <lastmod>2024-12-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Issues Page -->
+  <url>
+    <loc>https://github.com/jyxwant/sound-translate-hub/issues</loc>
+    <lastmod>2024-12-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Releases -->
+  <url>
+    <loc>https://github.com/jyxwant/sound-translate-hub/releases</loc>
+    <lastmod>2024-12-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+</urlset>
