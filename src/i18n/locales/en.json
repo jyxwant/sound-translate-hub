@@ -4,18 +4,18 @@
     "description": "Convert audio online with a clean, fast UI."
   },
   "header": {
-    "title": "Audio Format Converter",
-    "subtitle": "Convert your audio files instantly - no uploads, completely private, works in your browser"
+    "title": "Free Online Audio Converter - Convert MP3 WAV FLAC AAC Fast",
+    "subtitle": "Convert audio files instantly in your browser - no uploads, completely private, 300x faster than FFmpeg. Support MP3, WAV, FLAC, AAC, OGG formats with batch processing."
   },
   "benefits": {
-    "noUpload": "No file uploads",
-    "batch": "Batch processing",
-    "fast": "Lightning fast"
+    "noUpload": "100% Private - No File Uploads",
+    "batch": "Batch Convert Multiple Files",
+    "fast": "300x Faster Than FFmpeg"
   },
   "features": {
-    "batchDesc": "Upload and convert multiple audio files simultaneously. Save time with batch processing.",
-    "privacyDesc": "All processing happens locally in your browser. Your files never leave your device.", 
-    "speedDesc": "Fast conversion powered by WebAssembly. No waiting, instant results.",
+    "batchDesc": "Convert multiple MP3, WAV, FLAC, AAC files simultaneously. Professional batch audio converter saves time and processes dozens of files at once.",
+    "privacyDesc": "Complete privacy guarantee - all audio conversion happens locally in your browser. Your files never leave your device, no servers, no tracking.", 
+    "speedDesc": "Revolutionary lightweight audio converter - 300x faster than FFmpeg WASM. Instant conversion using optimized Web Audio API and lamejs encoder.",
     "mainSelling": "🚀 Our Main Feature"
   },
   "cta": {

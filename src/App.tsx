@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route, useParams, Navigate } from "react-router-
 import { DirectionProvider } from "@radix-ui/react-direction";
 import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
+import { HelmetProvider } from "react-helmet-async";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 
@@ -102,11 +103,13 @@ const AppContent = () => {
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <AppContent />
-    </TooltipProvider>
+    <HelmetProvider>
+      <TooltipProvider>
+        <Toaster />
+        <Sonner />
+        <AppContent />
+      </TooltipProvider>
+    </HelmetProvider>
   </QueryClientProvider>
 );
 

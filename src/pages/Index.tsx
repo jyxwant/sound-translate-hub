@@ -1,6 +1,10 @@
 import { useTranslation } from "react-i18next";
 import { AudioConverter } from "@/features/converter/components/AudioConverter";
 import { Layout } from "@/components/layout/Layout";
+import { SEOHead } from "@/components/seo/SEOHead";
+import { FAQSchema } from "@/components/seo/FAQSchema";
+import { BreadcrumbSchema } from "@/components/seo/BreadcrumbSchema";
+import { ProductSchema } from "@/components/seo/ProductSchema";
 import { Files, Zap, Shield, ArrowRight } from "lucide-react";
 
 const Index = () => {
@@ -27,7 +31,12 @@ const Index = () => {
   ];
 
   return (
-    <Layout>
+    <>
+      <SEOHead />
+      <FAQSchema />
+      <BreadcrumbSchema />
+      <ProductSchema />
+      <Layout>
       {/* Hero Section - Professional and Clean */}
       <div className="text-center mb-16">
         <div className="max-w-4xl mx-auto">
@@ -88,6 +97,7 @@ const Index = () => {
         <AudioConverter />
       </div>
     </Layout>
+    </>
   );
 };
 
