@@ -3,23 +3,23 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   
-  <!-- Main Page -->
+  <!-- English Page -->
   <url>
-    <loc>https://audioconverter.tech/</loc>
-    <lastmod>2025-01-06</lastmod>
+    <loc>https://audioconverter.tech/en/</loc>
+    <lastmod>2025-01-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     
     <!-- Multi-language alternatives -->
-    <xhtml:link rel="alternate" hreflang="en" href="https://audioconverter.tech/" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://audioconverter.tech/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://audioconverter.tech/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://audioconverter.tech/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://audioconverter.tech/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://audioconverter.tech/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://audioconverter.tech/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://audioconverter.tech/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://audioconverter.tech/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://audioconverter.tech/en/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://audioconverter.tech/zh/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audioconverter.tech/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://audioconverter.tech/es/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://audioconverter.tech/ru/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://audioconverter.tech/ar/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://audioconverter.tech/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://audioconverter.tech/ko/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audioconverter.tech/en/" />
     
     <!-- Images for rich snippets -->
     <image:image>
@@ -27,6 +27,139 @@
       <image:title>Audio Converter - Fast Audio Format Converter</image:title>
       <image:caption>Lightning-fast audio converter that works in your browser</image:caption>
     </image:image>
+  </url>
+
+  <!-- Chinese Page -->
+  <url>
+    <loc>https://audioconverter.tech/zh/</loc>
+    <lastmod>2025-01-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    
+    <!-- Multi-language alternatives -->
+    <xhtml:link rel="alternate" hreflang="en" href="https://audioconverter.tech/en/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://audioconverter.tech/zh/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audioconverter.tech/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://audioconverter.tech/es/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://audioconverter.tech/ru/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://audioconverter.tech/ar/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://audioconverter.tech/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://audioconverter.tech/ko/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audioconverter.tech/en/" />
+  </url>
+
+  <!-- French Page -->
+  <url>
+    <loc>https://audioconverter.tech/fr/</loc>
+    <lastmod>2025-01-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    
+    <!-- Multi-language alternatives -->
+    <xhtml:link rel="alternate" hreflang="en" href="https://audioconverter.tech/en/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://audioconverter.tech/zh/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audioconverter.tech/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://audioconverter.tech/es/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://audioconverter.tech/ru/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://audioconverter.tech/ar/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://audioconverter.tech/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://audioconverter.tech/ko/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audioconverter.tech/en/" />
+  </url>
+
+  <!-- Spanish Page -->
+  <url>
+    <loc>https://audioconverter.tech/es/</loc>
+    <lastmod>2025-01-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    
+    <!-- Multi-language alternatives -->
+    <xhtml:link rel="alternate" hreflang="en" href="https://audioconverter.tech/en/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://audioconverter.tech/zh/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audioconverter.tech/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://audioconverter.tech/es/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://audioconverter.tech/ru/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://audioconverter.tech/ar/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://audioconverter.tech/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://audioconverter.tech/ko/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audioconverter.tech/en/" />
+  </url>
+
+  <!-- Russian Page -->
+  <url>
+    <loc>https://audioconverter.tech/ru/</loc>
+    <lastmod>2025-01-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    
+    <!-- Multi-language alternatives -->
+    <xhtml:link rel="alternate" hreflang="en" href="https://audioconverter.tech/en/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://audioconverter.tech/zh/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audioconverter.tech/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://audioconverter.tech/es/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://audioconverter.tech/ru/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://audioconverter.tech/ar/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://audioconverter.tech/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://audioconverter.tech/ko/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audioconverter.tech/en/" />
+  </url>
+
+  <!-- Arabic Page -->
+  <url>
+    <loc>https://audioconverter.tech/ar/</loc>
+    <lastmod>2025-01-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    
+    <!-- Multi-language alternatives -->
+    <xhtml:link rel="alternate" hreflang="en" href="https://audioconverter.tech/en/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://audioconverter.tech/zh/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audioconverter.tech/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://audioconverter.tech/es/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://audioconverter.tech/ru/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://audioconverter.tech/ar/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://audioconverter.tech/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://audioconverter.tech/ko/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audioconverter.tech/en/" />
+  </url>
+
+  <!-- Japanese Page -->
+  <url>
+    <loc>https://audioconverter.tech/ja/</loc>
+    <lastmod>2025-01-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    
+    <!-- Multi-language alternatives -->
+    <xhtml:link rel="alternate" hreflang="en" href="https://audioconverter.tech/en/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://audioconverter.tech/zh/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audioconverter.tech/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://audioconverter.tech/es/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://audioconverter.tech/ru/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://audioconverter.tech/ar/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://audioconverter.tech/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://audioconverter.tech/ko/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audioconverter.tech/en/" />
+  </url>
+
+  <!-- Korean Page -->
+  <url>
+    <loc>https://audioconverter.tech/ko/</loc>
+    <lastmod>2025-01-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    
+    <!-- Multi-language alternatives -->
+    <xhtml:link rel="alternate" hreflang="en" href="https://audioconverter.tech/en/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://audioconverter.tech/zh/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://audioconverter.tech/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://audioconverter.tech/es/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://audioconverter.tech/ru/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://audioconverter.tech/ar/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://audioconverter.tech/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://audioconverter.tech/ko/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://audioconverter.tech/en/" />
   </url>
 
 </urlset>

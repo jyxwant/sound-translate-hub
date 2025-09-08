@@ -9,6 +9,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { useTranslation } from "react-i18next";
+import { useNavigate, useLocation } from "react-router-dom";
 
 const LANGS = [
   { code: "en", name: "English" },
@@ -23,6 +24,8 @@ const LANGS = [
 
 export const LanguageSwitcher = () => {
   const { i18n } = useTranslation();
+  const navigate = useNavigate();
+  const location = useLocation();
 
   const current = useMemo(() => {
     const match = LANGS.find((l) => i18n.language?.startsWith(l.code));
@@ -38,7 +41,8 @@ export const LanguageSwitcher = () => {
   }, [i18n.language, i18n, current.code]);
 
   const change = (code: string) => {
-    i18n.changeLanguage(code);
+    // Navigate to the new language URL
+    navigate(`/${code}/`);
   };
 
   const dir = i18n.dir();
