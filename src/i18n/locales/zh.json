@@ -4,8 +4,8 @@
     "description": "简洁快速的线上音频转换。"
   },
   "header": {
-    "title": "免费在线音频转换器 - 快速转换MP3 WAV FLAC AAC格式",
-    "subtitle": "在浏览器中即时转换音频文件 - 无需上传，完全私密，比FFmpeg快300倍。支持MP3、WAV、FLAC、AAC、OGG格式，批量处理多个文件。"
+    "title": "音频转换器",
+    "subtitle": "在浏览器中即时转换MP3、WAV、FLAC、AAC文件。私密、快速、完全免费，支持批量处理。"
   },
   "benefits": {
     "noUpload": "100%私密 - 无需上传文件",

@@ -12,18 +12,18 @@ export const SEOHead = () => {
   // SEO优化的长尾关键词策略
   const seoData = {
     en: {
-      title: "Free Audio Converter Online - Convert MP3 WAV FLAC AAC Files Fast",
+      title: "Audio Converter - Convert MP3 WAV FLAC AAC Files Online Free",
       description: "Lightning-fast browser-based audio converter. Convert MP3, WAV, FLAC, AAC, OGG files instantly without uploads. Batch convert multiple audio files simultaneously. 300x faster than FFmpeg, completely private and secure. Works offline in your browser.",
       keywords: "audio converter, mp3 converter, wav converter, flac converter, aac converter, ogg converter, online audio converter, free audio converter, batch audio converter, fast audio conversion, browser audio converter, no upload converter, private audio converter, web audio converter, audio format converter, convert audio online, audio file converter, music converter, sound converter, lossless audio converter",
-      ogTitle: "Free Audio Converter - Convert Audio Files Online Fast & Private",
+      ogTitle: "Audio Converter - Convert MP3 WAV FLAC AAC Files Fast & Private",
       ogDescription: "Convert MP3, WAV, FLAC, AAC files instantly in your browser. No uploads, batch processing, 300x faster performance. Completely free and private.",
       author: "Audio Converter Tech"
     },
     zh: {
-      title: "免费在线音频转换器 - 快速转换MP3 WAV FLAC AAC文件格式",
+      title: "音频转换器 - 在线转换MP3 WAV FLAC AAC文件免费快速",
       description: "超快浏览器音频转换工具。即时转换MP3、WAV、FLAC、AAC、OGG文件，无需上传。批量转换多个音频文件，比FFmpeg快300倍，完全私密安全。浏览器离线工作。",
       keywords: "音频转换器, mp3转换器, wav转换器, flac转换器, aac转换器, ogg转换器, 在线音频转换, 免费音频转换, 批量音频转换, 快速音频转换, 浏览器音频转换, 无上传转换器, 私密音频转换, 网页音频转换, 音频格式转换, 在线转换音频, 音频文件转换器, 音乐转换器, 声音转换器, 无损音频转换",
-      ogTitle: "免费音频转换器 - 在线快速私密转换音频文件",
+      ogTitle: "音频转换器 - 快速私密转换MP3 WAV FLAC AAC文件",
       ogDescription: "在浏览器中即时转换MP3、WAV、FLAC、AAC文件。无需上传、批量处理、性能提升300倍。完全免费私密。",
       author: "音频转换器技术"
     },

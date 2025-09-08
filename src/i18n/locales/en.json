@@ -4,8 +4,8 @@
     "description": "Convert audio online with a clean, fast UI."
   },
   "header": {
-    "title": "Free Online Audio Converter - Convert MP3 WAV FLAC AAC Fast",
-    "subtitle": "Convert audio files instantly in your browser - no uploads, completely private, 300x faster than FFmpeg. Support MP3, WAV, FLAC, AAC, OGG formats with batch processing."
+    "title": "Audio Converter",
+    "subtitle": "Convert MP3, WAV, FLAC, AAC files instantly in your browser. Private, fast, and completely free with batch processing support."
   },
   "benefits": {
     "noUpload": "100% Private - No File Uploads",

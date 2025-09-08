@@ -40,7 +40,7 @@ const Index = () => {
       {/* Hero Section - Professional and Clean */}
       <div className="text-center mb-16">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold text-foreground mb-6 tracking-tight">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-medium text-foreground mb-6 tracking-normal leading-tight">
             {t("header.title")}
           </h1>
           
@@ -68,7 +68,7 @@ const Index = () => {
                   }`}>
                     <Icon className="w-6 h-6" />
                   </div>
-                  <h3 className="font-semibold text-foreground mb-2">
+                  <h3 className="font-medium text-foreground mb-2">
                     {t(feature.titleKey)}
                   </h3>
                   <p className="text-sm text-muted-foreground leading-relaxed">
